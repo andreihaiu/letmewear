@@ -7,23 +7,25 @@ I'm a software developer at ING Romania.
 ### Contact Me
 - <img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384005.svg" width=20px height=20px>
 - <img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384014.svg" width=20px height=20px>
-
-<ul class="access_list">
-    <li>
-      <a href="https://www.facebook.com/andrei.haiu/">
-        <img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384005.svg" width=20px height=20px>
-      </a>
-    </li>
-    <li>
-      <a href="https://www.linkedin.com/in/andrei-haiu/">
-        <img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384014.svg" width=20px height=20px>
-      </a>
-    </li>
-</ul>
-
-<style>
-  li {
-    display:inline;
-    padding: 10px;
-  }
-</style>
+<html>
+    <body>
+        <style>
+          li {
+            display:inline;
+            padding: 10px;
+          }
+        </style>
+        <ul class="access_list">
+            <li>
+              <a href="https://www.facebook.com/andrei.haiu/">
+                <img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384005.svg" width=20px height=20px>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/andrei-haiu/">
+                <img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384014.svg" width=20px height=20px>
+              </a>
+            </li>
+        </ul>
+    </body>
+</html>
