@@ -14,18 +14,18 @@ I love to do lots of things, like:
 <html>
     <body>
         <style>
-          li {
+          .contact_list {
             display:inline;
             padding: 10px;
           }
         </style>
         <ul class="access_list">
-            <li>
+            <li class="contact_list">
               <a href="https://www.facebook.com/andrei.haiu/">
                 <img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384005.svg" width=50px height=50px>
               </a>
             </li>
-            <li>
+            <li class="contact_list">
               <a href="https://www.linkedin.com/in/andrei-haiu/">
                 <img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384014.svg" width=50px height=50px>
               </a>
