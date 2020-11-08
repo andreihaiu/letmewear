@@ -8,5 +8,5 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:andreihaiu/Andrei-Haiu.git master:gh-pages
+git push -f git@github.com:andreihaiu/letmewear.git master:gh-pages
 cd -

@@ -2,7 +2,7 @@ const webpack = require('webpack');
 
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/Andrei-Haiu/'
+    ? '/LetMeWear/'
     : '/',
   configureWebpack: {
     // Set up all the aliases we use in our app.
@@ -13,7 +13,7 @@ module.exports = {
     ]
   },
   pwa: {
-    name: 'LetMeWear',
+    name: 'letmewear',
     themeColor: '#172b4d',
     msTileColor: '#172b4d',
     appleMobileWebAppCapable: 'yes',
