@@ -343,7 +343,7 @@
                                  style="width: 200px;">
                             <div class="pt-4 text-center">
                                 <h5 class="title">
-                                    <span class="d-block mb-1">Daniel Ghilinta</span>
+                                    <span class="d-block mb-1">Daniel Ghilința</span>
                                     <small class="h6 text-muted">Amazing products! Super quality and good prices. My whole family installed the app. It's super funny and really, really useful! Thank you, LetMeWear!</small>
                                 </h5>
                             </div>
@@ -369,7 +369,7 @@
                                  style="width: 200px;">
                             <div class="pt-4 text-center">
                                 <h5 class="title">
-                                    <span class="d-block mb-1">Antoniu Carjan</span>
+                                    <span class="d-block mb-1">Antoniu Cîrjan</span>
                                     <small class="h6 text-muted">This app is a life saver. I never returned clothing items since downloading LetMeWear. Perfect fit, products match 1:1 the descriprion. Well done!</small>
                                 </h5>
                             </div>
@@ -378,6 +378,7 @@
                 </div>
             </div>
         </section>
+        <download></download>
         <register></register>
 
         <section class="section section-shaped my-0 overflow-hidden">
@@ -489,10 +490,12 @@
 
 <script>
 import register from './Register.vue';
+import download from './components/DownloadSection.vue';
 export default {
   name: "home",
   components: {
-    register
+    register,
+    download
   }
 };
 </script>
