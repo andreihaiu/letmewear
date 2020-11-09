@@ -343,7 +343,7 @@
                                  style="width: 200px;">
                             <div class="pt-4 text-center">
                                 <h5 class="title">
-                                    <span class="d-block mb-1">Daniel Ghilința</span>
+                                    <span class="d-block mb-1">Daniel Ghilință</span>
                                     <small class="h6 text-muted">Amazing products! Super quality and good prices. My whole family installed the app. It's super funny and really, really useful! Thank you, LetMeWear!</small>
                                 </h5>
                             </div>
