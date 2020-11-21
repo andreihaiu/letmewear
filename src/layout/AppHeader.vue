@@ -30,6 +30,10 @@
                 </base-dropdown> -->
                 <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                     <i class="ni ni-collection d-lg-none"></i>
+                    <span class="nav-link-inner--text" v-scroll-to="'#howitworks'">How it works</span>
+                </a>
+                <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
+                    <i class="ni ni-collection d-lg-none"></i>
                     <span class="nav-link-inner--text" v-scroll-to="'#feature'">Features</span>
                 </a>
                 <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">

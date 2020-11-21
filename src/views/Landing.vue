@@ -24,7 +24,7 @@
                     <card type="transparent" shadow
                     header-classes="bg-white pb-5"
                     body-classes="px-lg-5 py-lg-3"
-                    class="border-0">
+                    class="border-success mt-5">
                     <div class="row text-center justify-content-center">
                         <div class="col-lg-12">
                             <h2 class="display-5 text-white">Be the first one to find out about the launch date!</h2>
@@ -40,7 +40,7 @@
                         v-model="email">
                       </base-input>
                       <div class="text-center">
-                        <base-button type="white" class="my-2" @click="onSubscribe">Subscribe</base-button>
+                        <base-button type="success" class="my-2" @click="onSubscribe">Subscribe</base-button>
                       </div>
                     </form>
                   </template>
@@ -52,15 +52,14 @@
             <h1 class="display-3 text-white text-center py-2">LetMeWear
               <span>brings your wardrobe in your virtual shopping space!</span>
             </h1>
-            <img src="./fashion.png" width="100%" height="75%"/>
+            <img class="img-fluid floating" src="./fashion.png" width="100%" height="75%"/>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- 1st Hero Variation -->
 </div>
-<section class="section section-lg pt-lg-0 mt--200">
+<!-- <section class="section section-lg pt-lg-0 mt--200">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-12">
@@ -84,7 +83,7 @@
             </card>
           </card>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4"> -->
           <!-- <card class="border-0" hover shadow body-classes="py-5">
           <icon name="ni ni-istanbul" type="success" rounded class="mb-4">
         </icon>
@@ -100,7 +99,7 @@
       Learn more
     </base-button>
   </card> -->
-  <card class="border-0" hover shadow body-classes="py-0 px-0">
+  <!-- <card class="border-0" hover shadow body-classes="py-0 px-0">
     <img src="./bershka2.jpg" width="100%" height="40%"/>
     <card class="border-0" body-classes="py-3 px-3">
       <h6>Rochie scurtă imitație de piele</h6>
@@ -137,76 +136,53 @@
   </card>
 </card>
 </div>
-</div>
-<!-- <div class="row row-grid">
-<div class="col-lg-4">
-<card class="border-0" hover shadow body-classes="py-0 px-0">
-<img src="./zara1.webp" width="100%" height="40%"/>
-<card class="border-0" body-classes="py-3 px-3">
-<h6>Palton petrecut in zigzag</h6>
-<h6 class="text-primary text-uppercase">Zara</h6>
-<p class="description mt-3"><s>349,90 RON</s> 299,90 RON</p>
-<div>
-<badge type="primary" rounded>S</badge>
-<badge type="primary" rounded>M</badge>
-<badge type="primary" rounded>L</badge>
-<badge type="primary" rounded>XL</badge>
-</div>
-<base-button tag="a" href="#" type="primary" class="mt-3">
-Buy Now
-</base-button>
-</card>
-</card>
-</div>
-<div class="col-lg-4">
-<card class="border-0" hover shadow body-classes="py-0 px-0">
-<img src="./zara2.webp" width="100%" height="40%"/>
-<card class="border-0" body-classes="py-3 px-3">
-<h6>Jeans loose fit</h6>
-<h6 class="text-primary text-uppercase">Zara</h6>
-<p class="description mt-3"><s>159,90 RON</s> 139,90 RON</p>
-<div>
-<badge type="primary" rounded>36</badge>
-<badge type="primary" rounded>40</badge>
-<badge type="primary" rounded>42</badge>
-<badge type="primary" rounded>44</badge>
-<badge type="primary" rounded>46</badge>
-</div>
-<base-button tag="a" href="#" type="primary" class="mt-3">
-Buy Now
-</base-button>
-</card>
-</card>
-</div>
-<div class="col-lg-4">
-<card class="border-0" hover shadow body-classes="py-0 px-0">
-<img src="./zara3.webp" width="100%" height="40%"/>
-<card class="border-0" body-classes="py-3 px-3">
-<h6>Geaca usoara cu puf</h6>
-<h6 class="text-primary text-uppercase">Zara</h6>
-<p class="description mt-3"><s>349,90 RON</s> 321,90 RON</p>
-<div>
-<badge type="primary" rounded>S</badge>
-<badge type="primary" rounded>M</badge>
-<badge type="primary" rounded>L</badge>
-<badge type="primary" rounded>XL</badge>
-</div>
-<base-button tag="a" href="#" type="primary" class="mt-3">
-Buy Now
-</base-button>
-</card>
-</card>
-</div>
 </div> -->
+<!-- </div>
 </div>
 </div>
-</div>
+</section> -->
+<section id="howitworks" class="section section-lg-0">
+  <div class="container">
+    <div class="row row-grid align-items-center">
+      <div class="col-md-6 order-md-1">
+        <img src="./animation.gif" class="img-fluid floating col-md-7 ml-5"/>
+      </div>
+      <div class="col-md-6 order-md-2">
+        <div class="pr-md-5">
+          <h3>How <b>it</b> works?</h3>
+          <ul class="list-unstyled mt-5">
+            <li class="py-2">
+              <div class="d-flex align-items-center">
+                <!-- <badge type="success" circle class="mr-3" icon="ni ni-settings-gear-65"></badge> -->
+                <img class="mr-3" src="./one.svg" width="50px" height="50px"/>
+                <h6 class="mb-0">Add articles to your virtual wardrobe</h6>
+              </div>
+            </li>
+            <li class="py-2">
+              <div class="d-flex align-items-center">
+                <!-- <badge type="success" circle class="mr-3" icon="ni ni-html5"></badge> -->
+                <img class="mr-3" src="./two.svg" width="50px" height="50px"/>
+                <h6 class="mb-0">Select which articles to try on yourself</h6>
+              </div>
+            </li>
+            <li class="py-2">
+              <div class="d-flex align-items-center">
+                <!-- <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge> -->
+                <img class="mr-3" src="./three.svg" width="50px" height="50px"/>
+                <h6 class="mb-0">Check whether it fits or not</h6>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 <section id="feature" class="section section-lg-0">
   <div class="container">
     <div class="row row-grid align-items-center">
       <div class="col-md-6 order-md-2">
-        <img src="./clothing.svg" class="img-fluid floating">
+        <img src="./clothing.svg" class="img-fluid floating px-4">
       </div>
       <div class="col-md-6 order-md-1">
         <div class="pr-md-5">
@@ -434,110 +410,6 @@ every summer, and that process will continue whatever happens.</p>
         </div>
     </section>
 </template>
-<!-- <section class="section section-shaped my-0 overflow-hidden">
-<div class="shape shape-style-3 bg-gradient-default shape-skew">
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-</div>
-<div class="container pt-lg pb-100">
-</div>
-</section>
-<section class="section section-lg pt-lg-0 section-contact-us">
-<div class="container">
-<div class="row justify-content-center mt--300">
-<div class="col-lg-8">
-<card gradient="secondary" shadow body-classes="p-lg-5">
-<h4 class="mb-1">Do you want to contact us?</h4>
-<p class="mt-0">Your opinion matters!</p>
-<base-input class="mt-5"
-alternative
-placeholder="Your name"
-addon-left-icon="ni ni-user-run">
-</base-input>
-<base-input alternative
-placeholder="Email address"
-addon-left-icon="ni ni-email-83">
-</base-input>
-<base-input class="mb-4">
-<textarea class="form-control form-control-alternative" name="name" rows="4"
-cols="80" placeholder="Type a message..."></textarea>
-</base-input>
-<base-button type="default" round block size="lg">
-Send Message
-</base-button>
-</card>
-</div>
-</div>
-</div>
-</section> -->
-<!-- <section class="section section-lg">
-<div class="container">
-<div class="row row-grid justify-content-center"> -->
-<!-- <div class="col-lg-8 text-center">
-<h2 class="display-3">Do you love this awesome
-<span class="text-success">Design System for Bootstrap 4?</span>
-</h2>
-<p class="lead">Cause if you do, it can be yours for FREE. Hit the button below to navigate to
-Creative Tim where you can find the Design System in HTML. Start a new project or give an
-old Bootstrap project a new look!</p>
-<div class="btn-wrapper">
-<a href="https://www.creative-tim.com/product/vue-argon-design-system"
-class="btn btn-primary mb-3 mb-sm-0">Download Vue</a>
-</div>
-<div class="text-center">
-<h4 class="display-4 mb-5 mt-5">Available on these technologies</h4>
-<div class="row justify-content-center">
-<div class="col-lg-2 col-4">
-<a href="https://getbootstrap.com/" target="_blank" data-toggle="tooltip"
-data-original-title="Bootstrap 4 - Most popular front-end component library">
-<img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/bootstrap.jpg'"
-class="img-fluid">
-</a>
-</div>
-<div class="col-lg-2 col-4">
-<a href="https://www.sketchapp.com/" target="_blank" data-toggle="tooltip"
-data-original-title="[Coming Soon] Sketch - Digital design toolkit">
-<img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg'"
-class="img-fluid opacity-5">
-</a>
-</div>
-<div class="col-lg-2 col-4">
-<a href="https://www.adobe.com/products/photoshop.html" data-toggle="tooltip"
-data-original-title="[Coming Soon] Adobe Photoshop - Software for digital images manipulation">
-<img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/ps.jpg'"
-class="img-fluid  opacity-5">
-</a>
-</div>
-<div class="col-lg-2 col-4">
-<a href="https://vuejs.org/" target="_blank" data-toggle="tooltip"
-data-original-title="Vue.js - The progressive javascript framework">
-<img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg'"
-class="img-fluid">
-</a>
-</div>
-<div class="col-lg-2 col-4">
-<a href="https://angularjs.org/" target="_blank" data-toggle="tooltip"
-data-original-title="[Coming Soon] Angular - One framework. Mobile &amp; desktop">
-<img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg'"
-class="img-fluid opacity-5">
-</a>
-</div>
-<div class="col-lg-2 col-4">
-<a href="https://reactjs.org/" target="_blank" data-toggle="tooltip"
-data-original-title="[Coming Soon] React - A JavaScript library for building user interfaces">
-<img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg'"
-class="img-fluid opacity-5">
-</a>
-</div>
-</div>
-</div>
-</div> -->
-<!-- </div>
-</div>
-</section> -->
-
 </div>
 </template>
 
