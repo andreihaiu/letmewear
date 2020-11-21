@@ -31,7 +31,7 @@ Vue.config.productionTip = false;
 Vue.prototype.$analytics = firebase.analytics();
 Vue.use (Hotjar, {
   id: '2112824',
-  isProduction: NODE_ENV_PROD
+  isProduction: true
 })
 Vue.use(Argon);
 Vue.use(VueScrollTo);
