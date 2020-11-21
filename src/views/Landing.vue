@@ -21,14 +21,14 @@
               <div class="col-lg-6">
                 <div class="row justify-content-center">
                   <div class="col-lg">
-                    <card type="transparent" shadow
+                    <card type="white" shadow
                     header-classes="bg-white pb-5"
                     body-classes="px-lg-5 py-lg-3"
-                    class="border-success mt-5">
+                    class="border-0 mt-5">
                     <div class="row text-center justify-content-center">
                         <div class="col-lg-12">
-                            <h2 class="display-5 text-white">Be the first one to find out about the launch date!</h2>
-                            <p class="lead text-white">Subscribe to our newsletter!</p>
+                            <h2 class="display-5 text-default">Be the first one to find out about the launch date!</h2>
+                            <p class="lead text-primary">Subscribe to our newsletter!</p>
                         </div>
                     </div>
                     <template>
@@ -40,7 +40,7 @@
                         v-model="email">
                       </base-input>
                       <div class="text-center">
-                        <base-button type="success" class="my-2" @click="onSubscribe">Subscribe</base-button>
+                        <base-button type="primary" class="my-2" @click="onSubscribe">Subscribe</base-button>
                       </div>
                     </form>
                   </template>
