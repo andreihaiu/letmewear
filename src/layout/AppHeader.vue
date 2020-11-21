@@ -34,10 +34,10 @@
                 </a>
                 <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                     <i class="ni ni-collection d-lg-none"></i>
-                    <span class="nav-link-inner--text">Contact</span>
+                    <span class="nav-link-inner--text" v-scroll-to="'#rating'">Ratings</span>
                 </a>
             </ul>
-            <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+            <!-- <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                 <li class="nav-item">
                     <a class="nav-link nav-link-icon" href="https://www.facebook.com/" target="_blank" rel="noopener"
                        data-toggle="tooltip" title="Like us on Facebook">
@@ -51,7 +51,7 @@
                         <i class="fa fa-instagram"></i>
                         <span class="nav-link-inner--text d-lg-none">Instagram</span>
                     </a>
-                </li>
+                </li> -->
                 <!-- <li class="nav-item">
                     <a class="nav-link nav-link-icon" href="https://twitter.com/creativetim" target="_blank" rel="noopener"
                        data-toggle="tooltip" title="Follow us on Twitter">
@@ -66,16 +66,16 @@
                         <span class="nav-link-inner--text d-lg-none">Github</span>
                     </a>
                 </li> -->
-                <li class="nav-item d-none d-lg-block ml-lg-4">
+                <!-- <li class="nav-item d-none d-lg-block ml-lg-4">
                     <a href="/" target="_blank" rel="noopener"
                        class="btn btn-neutral btn-icon">
                 <span class="btn-inner--icon">
                   <i class="fa fa-cloud-download mr-2"></i>
                 </span>
-                        <span class="nav-link-inner--text">Download</span>
+                        <span class="nav-link-inner--text" @click="onDownloadClick">Download</span>
                     </a>
                 </li>
-            </ul>
+            </ul> -->
         </base-nav>
     </header>
 </template>
@@ -89,6 +89,12 @@ export default {
     BaseNav,
     CloseButton,
     BaseDropdown
+  },
+  methods: {
+    onDownloadClick: function() {
+      console.log("Download button clicked!");
+      this.$analytics.logEvent("download_click");
+    }
   }
 };
 </script>

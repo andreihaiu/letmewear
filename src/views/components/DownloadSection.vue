@@ -2,12 +2,14 @@
     <section class="section section-lg">
         <div class="container">
             <div class="row row-grid justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <h2 class="display-3">Download LetMeWear now!
-                        <span class="text-success">Available on your favorite platform</span>
+                <div class="text-center">
+                    <h2 class="display-3">
+                        <span class="text-success">LetMeWear will be available on your favorite platform</span>
                     </h2>
-                    <a href="https://www.google.com"><img class="mt-5" src="../play.png" width="200" height="70"/></a>
-                    <a href="https://www.apple.com"><img class="mt-5" src="../ios.png" width="200" height="62"/></a>
+                    <img class="mt-5" src="../play.png" width="200" height="70"/>
+                    <img class="mt-5" src="../ios.png" width="200" height="62"/>
+                    <!-- <a href="https://www.google.com"><img class="mt-5" src="../play.png" width="200" height="70"/></a>
+                    <a href="https://www.apple.com"><img class="mt-5" src="../ios.png" width="200" height="62"/></a> -->
                     <!-- <div class="text-center">
                         <h4 class="display-4 mb-5 mt-5">Available on these technologies</h4>
                         <div class="row justify-content-center">
