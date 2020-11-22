@@ -155,7 +155,7 @@
               <div class="d-flex align-items-center">
                 <!-- <badge type="success" circle class="mr-3" icon="ni ni-settings-gear-65"></badge> -->
                 <img class="mr-3" src="./one.svg" width="50px" height="50px"/>
-                <h6 class="mb-0">Adaugi articolele in cabina de proba virtual</h6>
+                <h6 class="mb-0">Adaugi articolele in cabina de proba virtuala</h6>
               </div>
             </li>
             <li class="py-2">
@@ -193,14 +193,14 @@
               <div class="d-flex align-items-center">
                 <!-- <badge type="success" circle class="mr-3" icon="ni ni-settings-gear-65"></badge> -->
                 <img class="mr-3" src="./first.svg" width="50px" height="50px"/>
-                <h6 class="mb-0">Probeaza toate hainele, incaltamintea si aceesoriile care iti fac cu ochiul</h6>
+                <h6 class="mb-0">Probeaza toate hainele, incaltamintea si accesoriile care iti fac cu ochiul</h6>
               </div>
             </li>
             <li class="py-2">
               <div class="d-flex align-items-center">
                 <!-- <badge type="success" circle class="mr-3" icon="ni ni-html5"></badge> -->
                 <img class="mr-3" src="./second.svg" width="50px" height="50px"/>
-                <h6 class="mb-0">Creaza-ti propriul model 3D virtual personalizabil</h6>
+                <h6 class="mb-0">Creeaza-ti propriul model 3D virtual personalizabil</h6>
               </div>
             </li>
             <li class="py-2">
@@ -388,7 +388,7 @@ every summer, and that process will continue whatever happens.</p>
               <div class="row text-center justify-content-center">
                   <div class="col-lg-12">
                       <h2 class="display-3 text-white">Nu uita sa te abonezi pentru a afla data lansarii aplicatiei!</h2>
-                      <p class="lead text-white">Completeaza mai jos email-ul tau si abomeaza-te la newsletter!</p>
+                      <p class="lead text-white">Completeaza mai jos email-ul tau si aboneaza-te la newsletter!</p>
                   </div>
               </div>
           </div>
@@ -437,7 +437,6 @@ export default {
   },
   methods: {
     onSubscribe: function() {
-      console.log("Email is: " + this.email);
       this.$analytics.logEvent("subscribe_click", { email: this.email, checked: false});
       if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(this.email)) {
         axios({
@@ -450,13 +449,10 @@ export default {
             email: this.email
           }
         }).then((response) => {
-          console.log(response);
           this.$analytics.logEvent("subscribe_click", { email: this.email, checked: true});
           alert("Te-ai abonat la newsletter.")
         }).catch((error) => {
-          if (error.response) {
-            console.log(error.response.data);
-          }
+
         });
       } else {
         alert("Ai introdus un email gresit.")
