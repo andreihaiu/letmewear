@@ -48,7 +48,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 row justify-content-center">
+          <div class="col-lg-6 row justify-content-center mt-5">
             <h1 class="display-3 text-white text-center py-2">LetMeWear
               <span>iti aduce garderoba in propriul spatiu virtual.</span>
             </h1>
@@ -145,7 +145,7 @@
   <div class="container">
     <div class="row row-grid align-items-center">
       <div class="col-md-6 order-md-1">
-        <img src="./animation.gif" class="img-fluid floating col-md-7 ml-5"/>
+        <img id="animation" src="./animation.gif" class="img-fluid floating m"/>
       </div>
       <div class="col-md-6 order-md-2">
         <div class="pr-md-5">
@@ -182,7 +182,7 @@
   <div class="container">
     <div class="row row-grid align-items-center">
       <div class="col-md-6 order-md-2">
-        <img src="./clothing.svg" class="img-fluid floating px-4">
+        <img src="./clothing.svg" class="img-fluid floating px-5">
       </div>
       <div class="col-md-6 order-md-1">
         <div class="pr-md-5">
