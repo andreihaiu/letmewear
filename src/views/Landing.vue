@@ -27,8 +27,8 @@
                     class="border-0 mt-5">
                     <div class="row text-center justify-content-center">
                         <div class="col-lg-12">
-                            <h2 class="display-5 text-default">Be the first one to find out about the launch date!</h2>
-                            <p class="lead text-primary">Subscribe to our newsletter!</p>
+                            <h2 class="display-5 text-default">Fii primul care afla data de lansare a aplicatiei!</h2>
+                            <p class="lead text-primary">Aboneaza-te la newsletter!</p>
                         </div>
                     </div>
                     <template>
@@ -40,7 +40,7 @@
                         v-model="email">
                       </base-input>
                       <div class="text-center">
-                        <base-button type="primary" class="my-2" @click="onSubscribe">Subscribe</base-button>
+                        <base-button type="primary" class="my-2" @click="onSubscribe">Ma abonez</base-button>
                       </div>
                     </form>
                   </template>
@@ -50,7 +50,7 @@
           </div>
           <div class="col-lg-6 row justify-content-center">
             <h1 class="display-3 text-white text-center py-2">LetMeWear
-              <span>brings your wardrobe in your virtual shopping space!</span>
+              <span>iti aduce garderoba in propriul spatiu virtual.</span>
             </h1>
             <img class="img-fluid floating" src="./fashion.png" width="100%" height="75%"/>
           </div>
@@ -149,27 +149,27 @@
       </div>
       <div class="col-md-6 order-md-2">
         <div class="pr-md-5">
-          <h3>How <b>it</b> works?</h3>
+          <h3>Cum functioneaza?</h3>
           <ul class="list-unstyled mt-5">
             <li class="py-2">
               <div class="d-flex align-items-center">
                 <!-- <badge type="success" circle class="mr-3" icon="ni ni-settings-gear-65"></badge> -->
                 <img class="mr-3" src="./one.svg" width="50px" height="50px"/>
-                <h6 class="mb-0">Add articles to your virtual wardrobe</h6>
+                <h6 class="mb-0">Adaugi articolele in cabina de proba virtual</h6>
               </div>
             </li>
             <li class="py-2">
               <div class="d-flex align-items-center">
                 <!-- <badge type="success" circle class="mr-3" icon="ni ni-html5"></badge> -->
                 <img class="mr-3" src="./two.svg" width="50px" height="50px"/>
-                <h6 class="mb-0">Select which articles to try on yourself</h6>
+                <h6 class="mb-0">Selecteaza articolele pe care vrei sa le probezi pe tine</h6>
               </div>
             </li>
             <li class="py-2">
               <div class="d-flex align-items-center">
                 <!-- <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge> -->
                 <img class="mr-3" src="./three.svg" width="50px" height="50px"/>
-                <h6 class="mb-0">Check whether it fits or not</h6>
+                <h6 class="mb-0">Verifica daca marimea ti se potriveste</h6>
               </div>
             </li>
           </ul>
@@ -186,28 +186,35 @@
       </div>
       <div class="col-md-6 order-md-1">
         <div class="pr-md-5">
-          <h3>Awesome <b>shopping</b> features!</h3>
-          <p>With <b>LetMeWear</b> you can have fun while shopping online! Not only you have amazing discounts, but you can also try on articles using your smartphone's camera!</p>
+          <h3>Ce aduce nou <b>LetMeWear</b>?</h3>
+          <p>Folosind <b>LetMeWear</b> cumparaturile online devin mai amuzante. Pe langa reducerile mari la imbracaminte, incaltaminte si accesorii, poti proba articolele folosind camera propriului tau telefon mobil!</p>
           <ul class="list-unstyled mt-5">
             <li class="py-2">
               <div class="d-flex align-items-center">
                 <!-- <badge type="success" circle class="mr-3" icon="ni ni-settings-gear-65"></badge> -->
                 <img class="mr-3" src="./first.svg" width="50px" height="50px"/>
-                <h6 class="mb-0">Virtually try on clothes, shoes and accessories of your liking</h6>
+                <h6 class="mb-0">Probeaza toate hainele, incaltamintea si aceesoriile care iti fac cu ochiul</h6>
               </div>
             </li>
             <li class="py-2">
               <div class="d-flex align-items-center">
                 <!-- <badge type="success" circle class="mr-3" icon="ni ni-html5"></badge> -->
                 <img class="mr-3" src="./second.svg" width="50px" height="50px"/>
-                <h6 class="mb-0">Create your own personalized virtual 3D Model</h6>
+                <h6 class="mb-0">Creaza-ti propriul model 3D virtual personalizabil</h6>
+              </div>
+            </li>
+            <li class="py-2">
+              <div class="d-flex align-items-center">
+                <!-- <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge> -->
+                <img class="mr-3" src="./quality.svg" width="50px" height="50px"/>
+                <h6 class="mb-0">Primesti recomandare cu marimea care ti se potriveste</h6>
               </div>
             </li>
             <li class="py-2">
               <div class="d-flex align-items-center">
                 <!-- <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge> -->
                 <img class="mr-3" src="./third.svg" width="50px" height="50px"/>
-                <h6 class="mb-0">Budget friendly offers</h6>
+                <h6 class="mb-0">Oferte prietenoase cu buzunarul tau</h6>
               </div>
             </li>
           </ul>
@@ -317,7 +324,7 @@ every summer, and that process will continue whatever happens.</p>
   <div class="container">
     <div class="row justify-content-center text-center mb-lg">
       <div class="col-lg-8">
-        <h2 class="display-3">How is our application rated by users?</h2>
+        <h2 class="display-3">Cum apreciaza utilizatorii aceasta aplicatie?</h2>
       </div>
     </div>
     <div class="row">
@@ -329,7 +336,7 @@ every summer, and that process will continue whatever happens.</p>
           <div class="pt-4 text-center">
             <h5 class="title">
               <span class="d-block mb-1">Daniel Ghilință</span>
-              <small class="h6 text-muted">Amazing products! Super quality and good prices. My whole family installed the app. It's super funny and really, really useful! Thank you, LetMeWear!</small>
+              <small class="h6 text-muted">Articolele sunt minunate, de buna calitate si la preturi accesibile. Intreaga familie a instalat aplicatia. Este super amuzanta si foarte folositoare. Multumesc, LetMeWear!</small>
             </h5>
           </div>
         </div>
@@ -342,7 +349,7 @@ every summer, and that process will continue whatever happens.</p>
           <div class="pt-4 text-center">
             <h5 class="title">
               <span class="d-block mb-1">Adina Mitru</span>
-              <small class="h6 text-muted">I never thought I could have my own virtual dressing room. I can really see me wearing glasses, hats, scarves live, on my mobile phone. WOW!</small>
+              <small class="h6 text-muted">Nu m-am gandit vreodata ca voi avea propria cabina de proba virtuala. In aplicatie pot sa probez ochelari, palarii, esarfe, toate astea pe telefonul meu mobil. WOW!</small>
             </h5>
           </div>
         </div>
@@ -355,7 +362,7 @@ every summer, and that process will continue whatever happens.</p>
           <div class="pt-4 text-center">
             <h5 class="title">
               <span class="d-block mb-1">Antoniu Cîrjan</span>
-              <small class="h6 text-muted">This app is a life saver. I never returned clothing items since downloading LetMeWear. Perfect fit, products match 1:1 the descriprion. Well done!</small>
+              <small class="h6 text-muted">Aplicatia asta salveaza vieti. N-am mai returnat niciun produs de cand am aplicatia LetMeWear. Tot ce comand imi vine perefect, produsele se potrivesc 1:1 cu descrierea. Ma declar multumit!</small>
             </h5>
           </div>
         </div>
@@ -380,8 +387,8 @@ every summer, and that process will continue whatever happens.</p>
           <div class="container pt-lg-0 pb-100">
               <div class="row text-center justify-content-center">
                   <div class="col-lg-12">
-                      <h2 class="display-3 text-white">Don't forget to subscribe in order to find out about the launch date!</h2>
-                      <p class="lead text-white">Write over your email and subscribe to our newsletter!</p>
+                      <h2 class="display-3 text-white">Nu uita sa te abonezi pentru a afla data lansarii aplicatiei!</h2>
+                      <p class="lead text-white">Completeaza mai jos email-ul tau si abomeaza-te la newsletter!</p>
                   </div>
               </div>
           </div>
@@ -400,7 +407,7 @@ every summer, and that process will continue whatever happens.</p>
                                             v-model="email">
                                 </base-input>
                                 <div class="text-center">
-                                    <base-button type="primary" class="my-2" @click="onSubscribe">Subscribe</base-button>
+                                    <base-button type="primary" class="my-2" @click="onSubscribe">Ma abonez</base-button>
                                 </div>
                             </form>
                         </template>
@@ -431,6 +438,7 @@ export default {
   methods: {
     onSubscribe: function() {
       console.log("Email is: " + this.email);
+      this.$analytics.logEvent("subscribe_click", { email: this.email, checked: false});
       if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(this.email)) {
         axios({
           url: 'https://formspree.io/f/xnqozkzg',
@@ -443,14 +451,15 @@ export default {
           }
         }).then((response) => {
           console.log(response);
-          alert("Your email has been submitted!")
+          this.$analytics.logEvent("subscribe_click", { email: this.email, checked: true});
+          alert("Te-ai abonat la newsletter.")
         }).catch((error) => {
           if (error.response) {
-            alert(error.response.data);
+            console.log(error.response.data);
           }
         });
       } else {
-        alert("You have entered an invalid email address!")
+        alert("Ai introdus un email gresit.")
       }
     }
   }

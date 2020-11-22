@@ -4,7 +4,7 @@
             <div class="row row-grid justify-content-center">
                 <div class="text-center">
                     <h2 class="display-3">
-                        <span class="text-success">LetMeWear will be available on your favorite platform</span>
+                        <span class="text-success">LetMeWear va fi disponibila pe platforma ta favorita</span>
                     </h2>
                     <img class="mt-5" src="../play.png" width="200" height="70"/>
                     <img class="mt-5" src="../ios.png" width="200" height="62"/>

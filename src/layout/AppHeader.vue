@@ -3,12 +3,12 @@
         <base-nav class="navbar-main" transparent type="" effect="light" expand>
             <router-link slot="brand" class="navbar-brand mr-lg-5" to="/">
                 <!-- <img src="img/brand/white.png" alt="logo"> -->
-                <h2 class="text-white">LetMeWear</h2>
+                <h2 class="text-white" @click="onClickLogo">LetMeWear</h2>
             </router-link>
 
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
                 <div class="col-6 collapse-brand">
-                    <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/">
+                    <a href="/">
                         <img src="img/brand/blue.png">
                     </a>
                 </div>
@@ -30,15 +30,15 @@
                 </base-dropdown> -->
                 <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                     <i class="ni ni-collection d-lg-none"></i>
-                    <span class="nav-link-inner--text" v-scroll-to="'#howitworks'">How it works</span>
+                    <span class="nav-link-inner--text" v-scroll-to="'#howitworks'" @click="onClickHowItWorks">Cum functioneaza?</span>
                 </a>
                 <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                     <i class="ni ni-collection d-lg-none"></i>
-                    <span class="nav-link-inner--text" v-scroll-to="'#feature'">Features</span>
+                    <span class="nav-link-inner--text" v-scroll-to="'#feature'" @click="onClickFeatures">Caracteristici</span>
                 </a>
                 <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                     <i class="ni ni-collection d-lg-none"></i>
-                    <span class="nav-link-inner--text" v-scroll-to="'#rating'">Ratings</span>
+                    <span class="nav-link-inner--text" v-scroll-to="'#rating'" @click="onClickRating">Evaluari</span>
                 </a>
             </ul>
             <!-- <ul class="navbar-nav align-items-lg-center ml-lg-auto">
@@ -95,9 +95,21 @@ export default {
     BaseDropdown
   },
   methods: {
-    onDownloadClick: function() {
-      console.log("Download button clicked!");
-      this.$analytics.logEvent("download_click");
+    onClickRating: function() {
+      console.log("Rating button clicked!");
+      this.$analytics.logEvent("ratings_header_click");
+    },
+    onClickFeatures: function() {
+      console.log("Features button clicked!");
+      this.$analytics.logEvent("features_header_click");
+    },
+    onClickHowItWorks: function() {
+      console.log("HowItWorks button clicked!");
+      this.$analytics.logEvent("how_it_works_header_click");
+    },
+    onClickLogo: function() {
+      console.log("Logo button clicked!");
+      this.$analytics.logEvent("logo_header_click");
     }
   }
 };
