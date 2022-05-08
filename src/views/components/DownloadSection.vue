@@ -8,6 +8,12 @@
                     </h2>
                     <img class="mt-5" src="../play.png" width="200" height="70"/>
                     <img class="mt-5" src="../ios.png" width="200" height="62"/>
+                    <!-- <h2 class="display-4 mt-5">
+                        <span class="text-success">pana atunci, poti testa aplicatia pe <b>Android</b></span>
+                    </h2> -->
+                    <!-- <a href="https://appdistribution.firebase.dev/i/a2f4c95caddf3d0b" target="_blank">
+                        <img class="mt-5" src="../play.png" width="200" height="70"/>
+                    </a> -->
                     <!-- <a href="https://www.google.com"><img class="mt-5" src="../play.png" width="200" height="70"/></a>
                     <a href="https://www.apple.com"><img class="mt-5" src="../ios.png" width="200" height="62"/></a> -->
                     <!-- <div class="text-center">
